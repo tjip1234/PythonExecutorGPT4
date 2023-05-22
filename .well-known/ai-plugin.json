@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Python execute Plugin",
+  "name_for_model": "pythonExec",
+  "description_for_human": "Plugin for executing Python code and getting the output",
+  "description_for_model": "Plugin for executing Python code and getting the output",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "http://localhost:5003/openapi.yaml",
+    "is_user_authenticated": false
+  },
+  "logo_url": "http://localhost:5003/logo.png",
+  "contact_email": "legal@example.com",
+  "legal_info_url": "http://example.com/legal"
+}
