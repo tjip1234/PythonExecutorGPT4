@@ -42,6 +42,7 @@ async def openapi_spec():
 async def process_code(code):
     import io
     import sys
+
     #code = re.sub(r"plt\.show\(\)", lambda _: asyncio.run(upload_image_and_print_url(fig)), code)
     #code = re.sub(r"plt\.savefig\((.*?)\)", lambda _: asyncio.run(upload_image_and_print_url(fig)), code)
     output = io.StringIO()
