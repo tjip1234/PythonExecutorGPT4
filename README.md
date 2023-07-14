@@ -39,5 +39,5 @@ To use the "Execute Code" plugin in your conversation with ChatGPT, follow these
 ## Development
 
 A lot of things are not working, for example matplotlib output or installing libraries automatically.
-If you want to help send me an email.
+Superceded by openAI's own implementation
 
